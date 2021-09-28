@@ -1,9 +1,9 @@
 from urllib.request import urlretrieve
 
 URL_PATH = 'https://s3.amazonaws.com/tcmg476/http_access_log'
-HTTP_ACCESS_LOG = 'local_file.log'
+ACCESS_LOG = 'local_file.log'
 
-local_file, headers = urlretrieve(URL_PATH, HTTP_ACCESS_LOG)
+local_file, headers = urlretrieve(URL_PATH, ACCESS_LOG)
 
 request_six = 0
 request_total = 0
